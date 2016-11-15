@@ -1,0 +1,237 @@
+rfprobe.cpp: In function ‘char ReadLRParm(site_data, char)’:
+rfprobe.cpp:2318:45: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  SetFileName(filename, txsite.filename,"lrp");
+                                             ^
+rfprobe.cpp: In function ‘void ObstructionAnalysis(site_data, site_data, double, FILE*, FILE*)’:
+rfprobe.cpp:8281:9: warning: variable ‘WaveLength’ set but not used [-Wunused-but-set-variable]
+  double WaveLength=0.0;
+         ^
+rfprobe.cpp: In function ‘int main(int, char**)’:
+rfprobe.cpp:10212:24: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  ini_logUsr(LogUsr, "w");
+                        ^
+rfprobe.cpp: In function ‘void ReadDataPowerLink(char*)’:
+rfprobe.cpp:255:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp:257:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp:259:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp:261:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp:263:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp:265:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+  fgets(string,49,fd);
+                     ^
+rfprobe.cpp: In function ‘site_data LoadQTH(char*)’:
+rfprobe.cpp:1498:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,49,fd);
+                      ^
+rfprobe.cpp:1506:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,49,fd);
+                      ^
+rfprobe.cpp:1510:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,49,fd);
+                      ^
+rfprobe.cpp:1516:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,49,fd);
+                      ^
+rfprobe.cpp: In function ‘void LoadPAT(char*)’:
+rfprobe.cpp:1623:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,254,fd);
+                       ^
+rfprobe.cpp:1636:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,254,fd);
+                       ^
+rfprobe.cpp:1654:24: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,254,fd);
+                        ^
+rfprobe.cpp:1755:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,254,fd);
+                       ^
+rfprobe.cpp:1767:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,254,fd);
+                       ^
+rfprobe.cpp:1789:24: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,254,fd);
+                        ^
+rfprobe.cpp: In function ‘int UnzipMap(char*)’:
+rfprobe.cpp:1969:17: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(command);
+                 ^
+rfprobe.cpp: In function ‘void LoadCities(char*)’:
+rfprobe.cpp:1995:21: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(input,78,fd);
+                     ^
+rfprobe.cpp:2029:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(input,78,fd);
+                      ^
+rfprobe.cpp: In function ‘void LoadUDT(char*)’:
+rfprobe.cpp:2083:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(input,78,fd1);
+                      ^
+rfprobe.cpp:2148:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(input,78,fd1);
+                       ^
+rfprobe.cpp:2168:51: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(fd1,"%d, %d, %lf", &xpix, &ypix, &height);
+                                                   ^
+rfprobe.cpp:2175:64: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(fd2,"%d, %d, %lf", &tempxpix, &tempypix, &tempheight);
+                                                                ^
+rfprobe.cpp:2189:66: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+      fscanf(fd2,"%d, %d, %lf", &tempxpix, &tempypix, &tempheight);
+                                                                  ^
+rfprobe.cpp:2198:52: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(fd1,"%d, %d, %lf", &xpix, &ypix, &height);
+                                                    ^
+rfprobe.cpp: In function ‘void LoadBoundaries(char*)’:
+rfprobe.cpp:2235:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,78,fd);
+                      ^
+rfprobe.cpp:2242:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,78,fd);
+                       ^
+rfprobe.cpp:2244:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,78,fd);
+                       ^
+rfprobe.cpp:2263:24: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fgets(string,78,fd);
+                        ^
+rfprobe.cpp:2267:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,78,fd);
+                       ^
+rfprobe.cpp: In function ‘char ReadLRParm(site_data, char)’:
+rfprobe.cpp:2336:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,80,fd);
+                      ^
+rfprobe.cpp:2349:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2363:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2377:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2391:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2406:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2421:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp:2436:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp: In function ‘void LoadSignalColors(site_data)’:
+rfprobe.cpp:3486:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,80,fd);
+                      ^
+rfprobe.cpp:3515:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp: In function ‘void LoadLossColors(site_data)’:
+rfprobe.cpp:3592:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,80,fd);
+                      ^
+rfprobe.cpp:3618:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp: In function ‘void LoadDBMColors(site_data)’:
+rfprobe.cpp:3695:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,80,fd);
+                      ^
+rfprobe.cpp:3731:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,80,fd);
+                       ^
+rfprobe.cpp: In function ‘void GenerateErrorReport(site_data, site_data, char*)’:
+rfprobe.cpp:8112:27: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(stringCommandLine);
+                           ^
+rfprobe.cpp: In function ‘int LoadANO(char*)’:
+rfprobe.cpp:9163:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,78,fd);
+                      ^
+rfprobe.cpp:9171:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,78,fd);
+                      ^
+rfprobe.cpp:9179:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,78,fd);
+                      ^
+rfprobe.cpp:9190:22: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(string,78,fd);
+                      ^
+rfprobe.cpp:9246:23: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,78,fd);
+                       ^
+rfprobe.cpp: In function ‘int main(int, char**)’:
+rfprobe.cpp:10304:24: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(string,253,fd);
+                        ^
+rfprobe.cpp: In function ‘void AnalysisPropagationModel(site_data, site_data)’:
+rfprobe.cpp:7522:64: warning: ‘azimuth’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    pattern=(double)anPath.lrPar.antenna_pattern[(int)azimuth][x];
+                                                                ^
+languages.cpp: In function ‘const char* strLang(STR_MSG)’:
+languages.cpp:142:8: warning: enumeration value ‘LAST_LANGUAGE’ not handled in switch [-Wswitch]
+  switch(lang_id)
+        ^
+fileutil.cpp: In function ‘void SaveBinFile(char*, void*, size_t)’:
+fileutil.cpp:314:61: warning: format ‘%li’ expects argument of type ‘long int’, but argument 3 has type ‘int’ [-Wformat=]
+  printf("SaveBinFile - name[%s] (%li)\n", name, (int)n_bytes);
+                                                             ^
+fileutil.cpp: In function ‘void GetAbsolutePathProgram(char*)’:
+fileutil.cpp:206:55: warning: ignoring return value of ‘ssize_t readlink(const char*, char*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  readlink("/proc/self/exe", FullNameProgram, PATH_MAX);
+                                                       ^
+fileutil.cpp: In function ‘int check7zArchive(char*)’:
+fileutil.cpp:354:16: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd);
+                ^
+sqlutil.cpp:39:12: warning: ‘int callback(void*, int, char**, char**)’ defined but not used [-Wunused-function]
+ static int callback(void *NotUsed, int argc, char **argv, char **azColName){
+            ^
+dbmaps.cpp: In function ‘int UnzipMap(char*, zi_entry_info*)’:
+dbmaps.cpp:306:43: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  extract7z_noPath(zipArchive, ".", mapname);
+                                           ^
+dbmaps.cpp: In function ‘void DecodeZipInfo(sqlite3*, char*)’:
+dbmaps.cpp:431:6: warning: unused variable ‘len’ [-Wunused-variable]
+  int len;
+      ^
+dbmaps.cpp:436:7: warning: variable ‘idRecord’ set but not used [-Wunused-but-set-variable]
+  long idRecord;
+       ^
+dbmaps.cpp: In function ‘int DbMapsCreate(char*)’:
+dbmaps.cpp:241:14: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(sCmd);
+              ^
+dbmaps.cpp: In function ‘void RemoveMap(zi_entry_info*)’:
+dbmaps.cpp:318:13: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(cmd);
+             ^
+dbmaps.cpp: In function ‘void DecodeZipInfo(sqlite3*, char*)’:
+dbmaps.cpp:443:34: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+   fgets(line, sizeof(line), file);
+                                  ^
+maps.cpp: In function ‘int LoadMap_SDF_BZ(int, int, int, int)’:
+maps.cpp:921:7: warning: variable ‘fFoundFreePage’ set but not used [-Wunused-but-set-variable]
+  char fFoundFreePage=0;
+       ^
+maps.cpp: In function ‘int LoadMap_SRTMInDem(dbc_map*, int)’:
+maps.cpp:1261:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(result != n_bytes)
+                ^
+maps.cpp: In function ‘int LoadSrtmMap(int, int, int, int)’:
+maps.cpp:1412:6: warning: unused variable ‘return_value’ [-Wunused-variable]
+  int return_value;
+      ^
